@@ -1,0 +1,14 @@
+{
+  "name": "hungr-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "mobile": "npm --prefix mobile run start",
+    "install:all": "npm --prefix backend install && npm --prefix mobile install"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.107.0"
+  }
+}
